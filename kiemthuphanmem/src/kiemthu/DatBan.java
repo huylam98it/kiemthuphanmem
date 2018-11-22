@@ -20,7 +20,7 @@ public class DatBan {
 	static WebDriver webDriver;
 
 	public static void main(String[] args) throws IOException {
-		System.setProperty("webdriver.gecko.driver", "src/geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "src/geckodriver");
 		webDriver = new FirefoxDriver();
 		
 		loadData("C:\\Users\\huylam98it\\Documents\\kiemthu\\Giang_TC.xlsx", 3, 1, 5);
